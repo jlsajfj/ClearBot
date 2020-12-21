@@ -1,0 +1,22 @@
+{
+  "name": "clearbot",
+  "version": "1.0.0",
+  "description": "Just a bot to clear messages on discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlsajfj/ClearBot.git"
+  },
+  "author": "Jlsajfj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlsajfj/ClearBot/issues"
+  },
+  "homepage": "https://github.com/jlsajfj/ClearBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
