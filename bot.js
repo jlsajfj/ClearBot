@@ -22,7 +22,7 @@ client.on('message', message => {
 	
 	if(content.startsWith(prefix)){
 		cmd = content.substring(2).split(' ');
-		logs = author.username+' sent the commnad \x1b[32m' + content +'\x1b[0m to the channel \x1b[32m'+ channel.name + '\x1b[0m in the server \x1b[32m' + channel.guild.name + '\x1b[0m';
+		logs = '\x1b[32m' + author.username+'\x1b[0m sent the commnad \x1b[32m' + content +'\x1b[0m to the channel \x1b[32m'+ channel.name + '\x1b[0m in the server \x1b[32m' + channel.guild.name + '\x1b[0m';
 		console.log(logs)
 		if(cmd[0]==='clear'){
 			if(cmd.length===1){
